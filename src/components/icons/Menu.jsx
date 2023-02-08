@@ -1,4 +1,3 @@
-import menuIcon from '../../../assets/icon-menu.svg'
 export const Menu = () => {
-  return <img src={menuIcon} alt='Open menu icon' />
+  return <img src={'/images/icon-menu.svg'} alt='Open menu icon' />
 }

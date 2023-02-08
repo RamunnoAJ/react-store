@@ -1,4 +1,5 @@
-import logo from '../../assets/logo.svg'
 export const Logo = () => {
-  return <img src={logo} alt='Logo of Holy Shirt' className=' w-32' />
+  return (
+    <img src={'/images/logo.svg'} alt='Logo of Holy Shirt' className=' w-32' />
+  )
 }
