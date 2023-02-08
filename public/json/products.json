@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Black 'Purr' T-Shirt",
+    "price": "3400",
+    "image": "../images/t-shirts/t-shirt-01.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 1,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Cream 'Skellyfish' T-Shirt",
+    "price": "3200",
+    "image": "../images/t-shirts/t-shirt-02.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 2,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Boston' T-Shirt",
+    "price": "3400",
+    "image": "../images/t-shirts/t-shirt-03.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 3,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Boo' T-Shirt",
+    "price": "3300",
+    "image": "../images/t-shirts/t-shirt-04.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 4,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Exo' T-Shirt",
+    "price": "3000",
+    "image": "../images/t-shirts/t-shirt-05.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 5,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Brooklyn' T-Shirt",
+    "price": "3500",
+    "image": "../images/t-shirts/t-shirt-06.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 6,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Xun' T-Shirt",
+    "price": "3650",
+    "image": "../images/t-shirts/t-shirt-07.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 7,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Lion' T-Shirt",
+    "price": "3600",
+    "image": "../images/t-shirts/t-shirt-08.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 8,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Blue 'Pussycat' T-Shirt",
+    "price": "3300",
+    "image": "../images/t-shirts/t-shirt-09.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 9,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Ghostie' T-Shirt",
+    "price": "3500",
+    "image": "../images/t-shirts/t-shirt-10.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 10,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Rubik' T-Shirt",
+    "price": "3100",
+    "image": "../images/t-shirts/t-shirt-11.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 11,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "Black 'Lightyear' T-Shirt",
+    "price": "3400",
+    "image": "../images/t-shirts/t-shirt-12.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 12,
+    "categoryId": 1,
+    "category": "t-shirts"
+  },
+  {
+    "name": "White 'Tired Cat' Hoodie",
+    "price": "4400",
+    "image": "../images/hoodies/hoodie-01.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 13,
+    "categoryId": 2,
+    "category": "hoodies"
+  },
+  {
+    "name": "Black 'AstroRide' Hoodie",
+    "price": "4700",
+    "image": "../images/hoodies/hoodie-02.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 14,
+    "categoryId": 2,
+    "category": "hoodies"
+  },
+  {
+    "name": "Black 'AstroBalloon' Hoodie",
+    "price": "4400",
+    "image": "../images/hoodies/hoodie-03.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 15,
+    "categoryId": 2,
+    "category": "hoodies"
+  },
+  {
+    "name": "Black 'Mushrooms' Hoodie",
+    "price": "4500",
+    "image": "../images/hoodies/hoodie-04.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 16,
+    "categoryId": 2,
+    "category": "hoodies"
+  },
+  {
+    "name": "White 'Japanese Dragon' Hoodie",
+    "price": "4900",
+    "image": "../images/hoodies/hoodie-05.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 17,
+    "categoryId": 2,
+    "category": "hoodies"
+  },
+  {
+    "name": "White 'Moon Flower' Hoodie",
+    "price": "4300",
+    "image": "../images/hoodies/hoodie-06.jpg",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "id": 18,
+    "categoryId": 2,
+    "category": "hoodies"
+  }
+]
