@@ -11,7 +11,7 @@ export const ItemListContainer = () => {
 
   useEffect(() => {
     if (categoryId) {
-      getDataFromDB('../json/products.json').then(prods => {
+      getDataFromDB().then(prods => {
         const products = prods.filter(
           product => product.category === categoryId
         )
@@ -19,7 +19,7 @@ export const ItemListContainer = () => {
         setProds(items)
       })
     } else {
-      getDataFromDB('./json/products.json').then(products => {
+      getDataFromDB().then(products => {
         const items = ItemList({ products, template: TEMPLATE })
         setProds(items)
       })

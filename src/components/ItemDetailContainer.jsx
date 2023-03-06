@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { getDataFromDB } from '../utils/functions'
+import { getProduct } from '../utils/functions'
 import { ItemDetail } from './ItemDetail'
 
 export const ItemDetailContainer = () => {
@@ -8,9 +8,8 @@ export const ItemDetailContainer = () => {
   const [product, setProduct] = useState([])
 
   useEffect(() => {
-    getDataFromDB('../../json/products.json').then(products => {
-      const prod = products.find(item => item.id === parseInt(id))
-      setProduct(prod)
+    getProduct(id).then(product => {
+      setProduct(product)
     })
   }, [])
 
