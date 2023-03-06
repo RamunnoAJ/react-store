@@ -5,7 +5,9 @@ export const Item = ({ item }) => {
       <img src={item.image} alt={item.name} className=' w-full' />
       <div className='flex flex-col gap-2 justify-center items-center'>
         <h3 className='font-semibold text-xl'>{item.name}</h3>
-        <p className='text-lg font-medium'>$ {item.price}</p>
+        <p className='text-lg font-medium'>
+          $ {new Intl.NumberFormat('de-DE').format(item.price)}
+        </p>
         <Link to={`/category/${item.category}/${item.id}`}>
           <button className='bg-[#ececec] py-2 px-4 rounded-3xl self-center font-medium'>
             Ver Producto

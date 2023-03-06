@@ -10,7 +10,7 @@ import { MenuClose } from './icons/MenuClose'
 export const NavBar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
-    <div className='bg-emerald-300'>
+    <div className='bg-emerald-300 mb-12'>
       <nav className='mx-auto max-w-7xl w-11/12 flex justify-between items-center transition-all duration-300 ease-in-out'>
         <Link to={'/'}>
           <Logo />
