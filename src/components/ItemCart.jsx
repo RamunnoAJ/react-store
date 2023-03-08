@@ -8,12 +8,14 @@ export const ItemCart = ({ item }) => {
   }
 
   return (
-    <div className='flex flex-row gap-8 justify-between rounded-xl p-8 shadow-lg'>
-      <img src={item.image} alt={item.name} className='w-24' />
-      <div className='flex flex-row gap-8 justify-center items-center'>
-        <h3 className='text-xl'>{item.name}</h3>
+    <div className='flex flex-col md:flex-row gap-4 md:gap-8 justify-between items-center rounded-xl p-8 shadow-lg'>
+      <img src={item.image} alt={item.name} className='w-24 hidden md:block' />
+      <h3 className='text-lg md:hidden'>{item.name}</h3>
+      <div className='flex flex-row gap-2 md:gap-8 justify-center items-center'>
+        <h3 className='text-xl hidden md:block'>{item.name}</h3>
         <p className='text-lg'>
-          Precio unitario: <span className='font-medium'>${item.price}</span>{' '}
+          <span className='hidden md:block'>Precio unitario:</span>{' '}
+          <span className='font-medium block'>${item.price}</span>{' '}
         </p>
         <ItemCount
           initialValue={item.quantity}
@@ -22,7 +24,7 @@ export const ItemCart = ({ item }) => {
           cartItem={true}
         />
         <p className='text-lg'>
-          Subtotal:{' '}
+          <span className='hidden md:block'>Subtotal:</span>
           <span className='font-medium'>${item.price * item.quantity}</span>
         </p>
         <button

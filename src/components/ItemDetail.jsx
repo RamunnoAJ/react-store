@@ -10,8 +10,12 @@ export const ItemDetail = ({ item }) => {
   }
 
   return (
-    <div className='flex flex-col md:flex-row gap-4  rounded-xl p-8 shadow-lg mt-8'>
-      <img src={`${item.image}`} alt={item.name} className=' w-full max-w-sm' />
+    <div className='flex flex-col md:flex-row gap-4 rounded-xl p-4 md:p-8 shadow-lg'>
+      <img
+        src={`${item.image}`}
+        alt={item.name}
+        className='md:w-full max-w-sm w-64'
+      />
       <div className='flex flex-col gap-4 justify-center items-center'>
         <h4 className='font-semibold text-xl'>{item.name}</h4>
         <p className='text-md font-medium'>Stock: {item.stock}</p>

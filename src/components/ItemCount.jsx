@@ -12,7 +12,7 @@ export const ItemCount = ({ initialValue, stock, onAdd, cartItem = false }) => {
   }
 
   return (
-    <div>
+    <div className='text-center'>
       <button onClick={() => substract()} className='p-2 font-medium'>
         -
       </button>

@@ -1,5 +1,15 @@
+/* eslint-disable object-shorthand */
+
 import { db } from './firebase'
-import { addDoc, collection, getDocs, getDoc, doc } from 'firebase/firestore'
+import {
+  addDoc,
+  collection,
+  getDocs,
+  getDoc,
+  doc,
+  updateDoc,
+  deleteDoc,
+} from 'firebase/firestore'
 
 export const loadDB = async () => {
   const response = await fetch('./json/products.json')
@@ -31,4 +41,30 @@ export const getProduct = async id => {
   const item = { ...product.data(), id: product.id }
 
   return item
+}
+
+export const updateProduct = async (id, info) => {
+  await updateDoc(doc(db, 'products', id), info)
+}
+
+export const deleteProduct = async id => {
+  await deleteDoc(doc(db, 'products', id))
+}
+
+export const createBuyOrder = async (client, products, totalPrice, date) => {
+  const buyOrder = await addDoc(collection(db, 'buyOrders'), {
+    clientData: client,
+    products: products,
+    totalPrice: totalPrice,
+    date: date,
+  })
+
+  return buyOrder
+}
+
+export const getBuyOrder = async id => {
+  const buyOrderDB = await getDoc(doc(db, 'buyOrders', id))
+  const buyOrder = { ...buyOrderDB.data(), id: buyOrderDB.id }
+
+  return buyOrder
 }

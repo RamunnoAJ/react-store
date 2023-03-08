@@ -19,8 +19,8 @@ export const Cart = () => {
       ) : (
         <div className='max-w-7xl mx-auto w-11/12 flex flex-col'>
           <ItemList products={cart} template='ItemCart' />
-          <div className='flex justify-between mt-4 items-center'>
-            <div>
+          <div className='flex flex-col md:flex-row md:justify-between mt-4 items-center'>
+            <div className='flex flex-col gap-2 items-center md:block'>
               <button
                 onClick={() => emptyCart()}
                 className='py-2 px-4 font-medium bg-red-300 rounded-3xl hover:bg-red-400 transition-colors duration-300 ease-out'>
